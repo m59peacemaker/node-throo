@@ -1,0 +1,14 @@
+{
+  "name": "throo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "VOL",
+  "dependencies": {
+    "through2": "^2.0.1"
+  }
+}
