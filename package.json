@@ -1,14 +1,14 @@
 {
   "name": "throo",
   "version": "0.0.0",
-  "description": "",
+  "description": "through2 for people that can't take `this` anymore.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": {},
   "license": "VOL",
-  "dependencies": {
+  "peerDependencies": {
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
     "through2": "^2.0.1"
   }
 }

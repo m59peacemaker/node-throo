@@ -2,7 +2,7 @@ const through = require('through2')
 
 function wrapFn (fn) {
   return function (...args) {
-    return fn(this, ...args)
+    return fn(this.push.bind(this), ...args)
   }
 }
 
@@ -19,10 +19,12 @@ function throo (...args) {
   return through(...wrapArgs(args))
 }
 
-['obj', 'ctor'].forEach(prop => {
-  throo[prop] = function (...args) {
-    return through[prop](...wrapArgs(args))
-  }
-})
+Object.keys(through)
+  .filter(key => typeof key !== 'function')
+  .forEach(key => {
+    throo[key] = function (...args) {
+      return through[key](...wrapArgs(args))
+    }
+  })
 
 module.exports = throo
