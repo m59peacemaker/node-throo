@@ -10,6 +10,8 @@ The API is just like `through2`, but `push` is passed as an argument so you don'
 npm install throo through2
 ```
 
+**`throo` will use whatever through2@^2.0.0 you have installed.**
+
 ## Usage
 
 ```js
