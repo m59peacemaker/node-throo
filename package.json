@@ -1,6 +1,6 @@
 {
   "name": "throo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "through2 for people that can't take `this` anymore.",
   "keywords": [
     "through",
