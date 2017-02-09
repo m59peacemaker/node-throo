@@ -1,6 +1,6 @@
 {
   "name": "throo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "through2 for people that can't take `this` anymore.",
   "keywords": [
     "through",
@@ -22,7 +22,7 @@
     "name": "Johnny Hauser",
     "email": "johnnyhauser@gmail.com"
   },
-  "license": "VOL",
+  "license": "CC0-1.0",
   "peerDependencies": {
     "through2": "^2.0.0"
   },
